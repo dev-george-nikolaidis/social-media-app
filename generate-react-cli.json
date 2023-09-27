@@ -12,9 +12,22 @@
       "withStory": false,
       "withLazy": false,
       "customTemplates":{
-        "component":"templates/TemplateName.jsx"
+        "component":"templates/TemplateName.jsx",
+        "stylesheet":"TemplateName.css"
+      },
+      "page": {
+        "path": "src/pages",
+        "withStyle": true,
+        "withTest": false,
+        "withStory": false,
+        "withLazy": false,
+        "customTemplates":{
+          "component":"templates/TemplateName.jsx",
+          "stylesheet":"TemplateName.css"
+        }
       }
     }
 
   }
+
 }
